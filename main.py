@@ -1,6 +1,7 @@
 from flask import Flask, render_template, redirect, url_for, request, flash
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
+from werkzeug.security import generate_password_hash, check_password_hash
 
 
 # crear Flask application object
@@ -38,7 +39,7 @@ def register():
         username = request.form.get('username')
         email = request.form.get('email')
         password = request.form.get('password')
-        user = User(username=username, email=email)
+        user = User(username=username, email=email, password='temp')
         user.set_password(password)
         db.session.add(user)
         db.session.commit()
