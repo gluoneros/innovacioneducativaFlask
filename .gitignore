@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes, as they only include source files (README.md, main.py) without any build artifacts, dependencies, or temporary files.
+Nothing to output - the change list contains only a markdown file (EduCore_Design_Document.md) which is a source/config file and should not be ignored.
