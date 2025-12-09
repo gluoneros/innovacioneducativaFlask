@@ -1,8 +1,8 @@
-# EduCore Backend Technical Design Document
+# Innovacioneducativa Backend Technical Design Document
 
 ## 1. Executive Summary
 
-EduCore is a RESTful backend system designed for a School Management System (SMS) with a Flutter frontend. The system follows a modular architecture using Flask with the Application Factory pattern, PostgreSQL database, and JWT-based authentication. This document outlines the technical architecture, data models, and implementation guidelines for the core modules.
+Innovacioneducativa is a RESTful backend system designed for a School Management System (SMS) with a Flutter frontend. The system follows a modular architecture using Flask with the Application Factory pattern, PostgreSQL database, and JWT-based authentication. This document outlines the technical architecture, data models, and implementation guidelines for the core modules.
 
 ## 2. Architecture Overview
 
@@ -17,7 +17,7 @@ EduCore is a RESTful backend system designed for a School Management System (SMS
 
 ### 2.2 Project Structure
 ```
-educore/
+innovacioneducaiva/
 ├── app/
 │   ├── __init__.py                 # Application Factory
 │   ├── extensions.py               # Flask extensions initialization
