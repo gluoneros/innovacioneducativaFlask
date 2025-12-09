@@ -1,4 +1,11 @@
 flask 
-flask-sqlalchemy 
+flask-sqlalchemy
+Flask-Migrate
+Flask-JWT-Extended
+flask-marshmallow
 flask-login 
+
+marshmallow-sqlalchemy
+python-dotenv
+Werkzeug
 psycopg2-binary
